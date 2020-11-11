@@ -9,6 +9,22 @@ header{
     padding:10px;
 }
 
+fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+input[id=name ]::placeholder{
+    text-align: right;
+}
+
+input[id=email ]::placeholder{
+    text-align: right;
+}
+
+
+
 
 
 
@@ -22,5 +38,12 @@ header{
 .formholder{
     border-top: black 2px solid;
 }
+
+
+
+
+
+
+
 
 
