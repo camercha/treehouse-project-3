@@ -15,12 +15,20 @@ fieldset{
     flex-direction: column;
 }
 
+input{
+    background-color: rgb(241, 234, 234);
+}
+
 input[id=name ]::placeholder{
     text-align: right;
 }
 
 input[id=email ]::placeholder{
     text-align: right;
+}
+
+select{
+    background-color: rgb(241, 234, 234);
 }
 
 
@@ -37,6 +45,10 @@ input[id=email ]::placeholder{
 
 .formholder{
     border-top: black 2px solid;
+}
+
+.contact{
+    border-bottom: 2px solid;
 }
 
 
