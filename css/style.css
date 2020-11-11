@@ -47,6 +47,8 @@ textarea{
 button{
     color: white;
     background-color: teal;
+    margin-top: 10px;
+    border-radius: 8%;
 }
 
 
