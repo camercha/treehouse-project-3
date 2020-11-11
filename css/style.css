@@ -19,12 +19,21 @@ fieldset{
 }
 
 legend{
+    font-size: 1.3em;
     font-weight: bold;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
+
+label{
+    
+    padding-top: 15px;
+    padding-bottom:15px ;
+}
+
 input{
+    height: 50px;
     background-color: rgb(241, 234, 234);
 }
 
@@ -38,6 +47,7 @@ input[id=email ]::placeholder{
 
 select{
     background-color: rgb(241, 234, 234);
+    height: 50px;
 }
 
 textarea{
@@ -48,7 +58,8 @@ button{
     color: white;
     background-color: teal;
     margin-top: 10px;
-    border-radius: 8%;
+    border-radius: 10%;
+    padding: 20px;
 }
 
 
@@ -68,6 +79,14 @@ footer{
     margin-bottom: 5px;
 }
 
+
+
+.intro p{
+   font-size: 1.1rem;
+   
+}
+
+
 .formholder{
     border-top: black 3px solid;
 }
@@ -84,12 +103,7 @@ footer{
 
 
 
-#htmlnews::after{
-    content: "HTML News";
-   
-   
-    
-}
+
 
 
 
