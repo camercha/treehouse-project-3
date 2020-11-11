@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
     <title>THE CODE REVIEW</title>
 </head>
 
@@ -36,6 +40,7 @@
                 <label for="state">State</label>
                 <select name="user_state" id="state">
                     <optgroup>
+                        <option value="" disabled selected hidden>Choose State</option>
                         <option value="Alabama">Alabama</option>
                         <option value="Alaska">Alaska</option>
                         <option value="Connecticut">Connecticut</option>
@@ -47,6 +52,7 @@
 
                 <label for="zip">ZIP Code</label>
                 <input type="text" name="user_zip" id="zip">
+
 
             </fieldset>
         </form>
@@ -62,8 +68,10 @@
                 <input type="radio" name="news_format" id="html" value="html">
                 <input type="radio" name="news_format" id="plain" value="plain_text">
                 <p>Other topics you'd like to hear about</p>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea name="opinion" id="opinion" cols="30" rows="10"></textarea>
+                <button>Sign up</button>
             </fieldset>
+
 
         </form>
 

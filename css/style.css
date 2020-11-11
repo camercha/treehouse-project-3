@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+ font-family: 'Merriweather', serif;;
 }
 
 header{
@@ -13,6 +14,14 @@ fieldset{
     border: none;
     display: flex;
     flex-direction: column;
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+
+legend{
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 input{
@@ -31,6 +40,20 @@ select{
     background-color: rgb(241, 234, 234);
 }
 
+textarea{
+    background-color: rgb(241, 234, 234);
+}
+
+button{
+    color: white;
+    background-color: teal;
+}
+
+
+footer{
+    text-align: center;
+}
+
 
 
 
@@ -44,8 +67,9 @@ select{
 }
 
 .formholder{
-    border-top: black 2px solid;
+    border-top: black 3px solid;
 }
+
 
 .contact{
     border-bottom: 2px solid;
@@ -54,6 +78,16 @@ select{
 
 
 
+
+
+
+
+#htmlnews::after{
+    content: "HTML News";
+   
+   
+    
+}
 
 
 
