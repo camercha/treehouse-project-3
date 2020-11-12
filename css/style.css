@@ -33,7 +33,7 @@ input[id ]::placeholder{
 
 input:focus{
     background-color: #81b29a ;
-    transition: 2s;
+    transition-duration: 2s, 2s;
    
     
      
