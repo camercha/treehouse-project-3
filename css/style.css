@@ -144,6 +144,16 @@ padding-left: 15px;
 
 @media (min-width:768px){
 
+
+/* .wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+} */
+
+
+
+
 .datacollect{
 
 flex-direction: row;
@@ -163,6 +173,7 @@ justify-content: space-between;
 .zipper{
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 #zip{
