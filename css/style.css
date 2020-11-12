@@ -22,9 +22,8 @@ label{
 input{
     height: 50px;
     background-color: rgb(241, 234, 234);
-   
     padding: 10px;
-    border: none;
+    transition: border .5s
     
 }
 input[id ]::placeholder{
@@ -32,35 +31,34 @@ input[id ]::placeholder{
 }
 
 input:focus{
-    background-color: #81b29a ;
-    transition-duration: 2s;
+    border: 5px solid red;
+    
    
     }
 
 
     select:focus{
-        background-color: #81b29a;
-        transition-duration: 2s;
+        border: 5px solid red;
     }
 
 
 textarea:focus{
-    background-color: #81b29a ;
-    transition: 2s;
+    border: 5px solid red;
 }
 
 select{
     background-color: rgb(241, 234, 234);
     height: 50px;
     color: gray;
+    transition: border .5s;
    
-    border: none;
+    
     
 }
 
 textarea{
     background-color: rgb(241, 234, 234);
-    border: none;
+    transition: border .5s;
     align-self: center;
     width:85%;
 }
@@ -228,7 +226,7 @@ justify-content: space-between;
 }
 
 #zip{
-    width: 40%;
+    width: 42%;
 }
 
 footer{
