@@ -35,6 +35,8 @@ label{
 input{
     height: 50px;
     background-color: rgb(241, 234, 234);
+    border-radius: 5%;
+    padding: 10px;
 }
 
 input[id=name ]::placeholder{
@@ -48,6 +50,7 @@ input[id=email ]::placeholder{
 select{
     background-color: rgb(241, 234, 234);
     height: 50px;
+    border-radius: 5%;
 }
 
 textarea{
@@ -60,6 +63,7 @@ button{
     margin-top: 10px;
     border-radius: 10%;
     padding: 20px;
+    font-size: 1.5em;
 }
 
 
@@ -95,6 +99,21 @@ footer{
 .contact{
     border-bottom: 2px solid;
 }
+
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    flex-grow: ;
+}
+
+.zipper{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+   
+}
+
 
 
 
