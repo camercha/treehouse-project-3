@@ -168,7 +168,7 @@ justify-content: space-between;
 
 
 .datacollect #name, #email,#phone,#streetadd, #city,#state{
-    width: 80%;
+    width: 70%;
     margin-bottom: 30px;
 }
 
@@ -180,7 +180,7 @@ justify-content: space-between;
 }
 
 #zip{
-    width: 60%;
+    width: 50%;
 }
 
 
