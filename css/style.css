@@ -39,6 +39,12 @@ input:focus{
      
 }
 
+
+textarea:focus{
+    background-color: #81b29a ;
+    transition: 2s;
+}
+
 select{
     background-color: rgb(241, 234, 234);
     height: 50px;
@@ -124,7 +130,7 @@ footer{
 }
 
 
-.contact{
+.bigform{
     border-bottom: 2px solid;
     background-color: #e07a5f;
 }
