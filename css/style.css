@@ -28,8 +28,10 @@ label{
 input{
     height: 50px;
     background-color: rgb(241, 234, 234);
-    border-radius: 5%;
+   
     padding: 10px;
+    border: none;
+    
 }
 
 input[id=name ]::placeholder{
@@ -47,25 +49,37 @@ input:focus{
 select{
     background-color: rgb(241, 234, 234);
     height: 50px;
-    border-radius: 5%;
+   
+    border: none;
+    
 }
 
 textarea{
     background-color: rgb(241, 234, 234);
+    border: none;
+    align-self: center;
+    width:85%;
 }
 
 button{
     color: white;
     background-color: teal;
     margin-top: 30px;
-    border-radius: 10%;
     padding: 20px;
     font-size: 1.5em;
+    border: none;
+    align-self: center;
+    width:85%;
 }
 
 
 footer{
     text-align: center;
+    background-color: #3d405b;
+    width: 100%;
+    padding: 10px;
+    color: white;
+   
 }
 
 
@@ -81,6 +95,8 @@ footer{
     text-align: center;
     border-bottom: black 4px solid;
     margin-bottom: 5px;
+    background-color:#f4f1de ;
+    padding-top: 10px;
 }
 
 
@@ -108,11 +124,16 @@ footer{
 
 .contact{
     border-bottom: 2px solid;
+    background-color: #e07a5f;
 }
 
 .datacollect{
     display: flex;
     flex-direction: column;
+}
+
+.Newsletter{
+    background-color:#e07a5f ;
 }
 
 
@@ -187,6 +208,9 @@ justify-content: space-between;
     width: 40%;
 }
 
+footer{
+    width: 560px;
+}
 
 
 }
