@@ -144,9 +144,30 @@ padding-left: 15px;
 
 @media (min-width:768px){
 
+.datacollect{
+
+flex-direction: row;
+justify-content: space-between;
+
+
 }
 
-    
+
+
+.datacollect #name, #email,#phone,#streetadd, #city,#state{
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+
+.zipper{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+}
 
 
 
