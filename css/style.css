@@ -70,6 +70,9 @@ footer{
 
 
 
+
+
+
 .intro{
     text-align: center;
     border-bottom: black 4px solid;
@@ -98,8 +101,14 @@ footer{
     padding-bottom: 20px;
 }
 
+
 .contact{
     border-bottom: 2px solid;
+}
+
+.datacollect{
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -124,6 +133,18 @@ padding-left: 15px;
     display: flex;
 }
 
+
+
+
+
+
+
+
+
+
+@media (min-width:768px){
+
+}
 
     
 
