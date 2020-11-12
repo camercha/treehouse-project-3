@@ -25,7 +25,7 @@
     <main class="formholder">
 
         <form class="contact" action="index.html" method="POST">
-            <fieldset>
+            <fieldset class="form_1">
                 <legend>Contact Information</legend>
                 <div class="questions">
                     <label for="name">Full Name</label>
@@ -40,8 +40,6 @@
                     <input type="text" name="user_city" id="city">
                     <label for="state">State</label>
                     <select name="user_state" id="state">
-
-
                         <optgroup>
                             <option value="" disabled selected hidden>Choose State</option>
                             <option value="Alabama">Alabama</option>
@@ -62,15 +60,34 @@
         </form>
 
         <form class="Newsletter" action="index.html" method="POST">
-            <fieldset>
+            <fieldset class="form_2">
                 <legend>Newsletter</legend>
                 <p>Select the newsletters you would like to receive</p>
-                <input type="checkbox" name="htmlnews" id="htmlnews">
-                <input type="checkbox" name="cssnews" id="css">
-                <input type="checkbox" name="javascriptnews" id="javascript">
+                <div class="checkboxcollect">
+                    <input type="checkbox" name="htmlnews" id="htmlnews">
+                    <label for="htmlnews">HTML News</label>
+
+                </div>
+                <div class="checkboxcollect">
+
+                    <input type="checkbox" name="cssnews" id="cssnews">
+                    <label for="cssnews">CSS News</label>
+
+                </div>
+                <div class="checkboxcollect">
+
+                    <input type="checkbox" name="javascriptnews" id="javascriptnews">
+                    <label for="javascriptnews">Javascript News </label>
+                </div>
                 <p>Newsletter format</p>
-                <input type="radio" name="news_format" id="html" value="html">
-                <input type="radio" name="news_format" id="plain" value="plain_text">
+                <div class="checkboxcollect">
+                    <input type="radio" name="news_format" id="html" value="html">
+                    <label for="html">HTML</label>
+                </div>
+                <div class="checkboxcollect">
+                    <input type="radio" name="news_format" id="plain" value="plain_text">
+                    <label for="plain">Plain Text</label>
+                </div>
                 <p>Other topics you'd like to hear about</p>
                 <textarea name="opinion" id="opinion" cols="30" rows="10"></textarea>
                 <button>Sign up</button>
