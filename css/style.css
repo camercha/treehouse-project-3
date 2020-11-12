@@ -14,7 +14,7 @@ header{
 legend{
     font-size: 1.3em;
     font-weight: bold;
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 20px;
 }
 
@@ -145,13 +145,16 @@ padding-left: 15px;
 @media (min-width:768px){
 
 
-/* .wrapper{
+ .wrapper{
     display: flex;
     align-items: center;
     flex-direction: column;
-} */
+    width: 100%
+} 
 
-
+main{
+    width: 561px;
+}
 
 
 .datacollect{
