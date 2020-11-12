@@ -11,12 +11,6 @@ header{
 }
 
 
-legend{
-    font-size: 1.3em;
-    font-weight: bold;
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
 
 
 label{
@@ -33,22 +27,22 @@ input{
     border: none;
     
 }
-
-input[id=name ]::placeholder{
-    text-align: right;
-}
-
-input[id=email ]::placeholder{
+input[id ]::placeholder{
     text-align: right;
 }
 
 input:focus{
-    background-color: violet;
+    background-color: #81b29a ;
+    transition: 2s;
+   
+    
+     
 }
 
 select{
     background-color: rgb(241, 234, 234);
     height: 50px;
+    color: gray;
    
     border: none;
     
@@ -112,6 +106,14 @@ footer{
 }
 
 
+
+.form_1 legend{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
 .form_1,
 .form_2{
     border: none;
@@ -132,16 +134,27 @@ footer{
     flex-direction: column;
 }
 
-.Newsletter{
-    background-color:#e07a5f ;
-}
-
 
 .questions{
     display: flex;
     flex-direction: column;
     
 }
+
+.form2border{
+    display: flex;
+    flex-direction: column;
+    border-top: 3px solid black;
+}
+
+.form_2 legend{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
 
 .form_2 label{
 padding-left: 15px;
@@ -150,7 +163,7 @@ padding-left: 15px;
 .zipper{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 51%;
    
 }
 
