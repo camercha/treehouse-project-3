@@ -40,6 +40,10 @@ input[id=email ]::placeholder{
     text-align: right;
 }
 
+input:focus{
+    background-color: violet;
+}
+
 select{
     background-color: rgb(241, 234, 234);
     height: 50px;
